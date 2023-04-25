@@ -1,0 +1,51 @@
+body {
+  background-color: #ffffff;
+  color: #434455;
+  font-family: roboto;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: #2e2f42;
+}
+.logo > span {
+  color: #4d5ae5;
+}
+.site-nav .link {
+  color: #2e2f42;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #404bbf;
+}
+.section-title {
+  color: #2e2f42;
+}
+
+/*  .address .link:hover,
+.address .link:focus {
+  color: #404bbf;
+}*/
+
+/* вторинний колір
+1 сектор
+#2E2F42
+4 сектор
+#F4F4FD
+
+
+
+шрифт
+#434455 SLATE
+
+NAVY BLUE
+#2E2F42
+
+WHITE
+#FFFFFF
+
+web 
+IRIS
+#4D5AE5
+*/
