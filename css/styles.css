@@ -1,18 +1,59 @@
+:root {
+  --accent-color: #2e2f42;
+  --seccondary-color: #434455;
+  --third-color: #f4f4fd;
+  --main-color: #ffffff;
+  --logo-color: #4d5ae5;
+  --focus-color: #404bbf;
+}
 body {
-  background-color: #ffffff;
-  color: #434455;
-  font-family: roboto;
+  background-color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+  color: var (--seccondary-color);
 }
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
 .logo {
-  color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 0.86;
+  color: var(--accent-color);
 }
-.logo > span {
-  color: #4d5ae5;
+.span-logo {
+  color: var(--logo-color);
 }
-.site-nav .link {
+.menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.02em;
+  color: var (var(--accent-color));
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--focus-color);
+}
+.address-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.67;
+  color: var(--seccondary-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--focus-color);
+}
+
+/* .site-nav .link {
   color: #2e2f42;
 }
 .site-nav .link:hover,
@@ -21,7 +62,7 @@ body {
 }
 .section-title {
   color: #2e2f42;
-}
+} */
 
 /*  .address .link:hover,
 .address .link:focus {
