@@ -1,15 +1,15 @@
 :root {
-  --accent-color: #2e2f42;
-  --seccondary-color: #434455;
-  --third-color: #f4f4fd;
+  --dark: #2e2f42;
+  --text: #434455;
+  --light: #f4f4fd;
   --main-color: #ffffff;
-  --logo-color: #4d5ae5;
-  --focus-color: #404bbf;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
 }
 body {
   background-color: var(--main-color);
   font-family: 'Roboto', sans-serif;
-  color: var (--seccondary-color);
+  color: var(--text);
 }
 .list {
   list-style: none;
@@ -23,10 +23,10 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 0.86;
-  color: var(--accent-color);
+  color: var(--dark);
 }
 .span-logo {
-  color: var(--logo-color);
+  color: var(--primary-brand);
 }
 .menu-link {
   font-style: normal;
@@ -34,11 +34,11 @@ body {
   font-size: 16px;
   line-height: 0.67;
   letter-spacing: 0.02em;
-  color: var (var(--accent-color));
+  color: var (var(--dark));
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--focus-color);
+  color: var(--pressed-state);
 }
 .address-link {
   font-family: 'Roboto', sans-serif;
@@ -46,47 +46,86 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 0.67;
-  color: var(--seccondary-color);
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 .address-link:hover,
 .address-link:focus {
-  color: var(--focus-color);
+  color: var(--pressed-state);
 }
-
-/* .site-nav .link {
-  color: #2e2f42;
+.section-hero {
+  background-color: var(--dark);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #404bbf;
+.main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 0.93;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.button {
+  cursor: pointer;
+}
+.order-service-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.04em;
+  background: var(--primary-brand);
+  color: var(--main-color);
+  border: 1px solid #000000;
+}
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: var(--pressed-state);
 }
 .section-title {
-  color: #2e2f42;
-} */
-
-/*  .address .link:hover,
-.address .link:focus {
-  color: #404bbf;
-}*/
-
-/* вторинний колір
-1 сектор
-#2E2F42
-4 сектор
-#F4F4FD
-
-
-
-шрифт
-#434455 SLATE
-
-NAVY BLUE
-#2E2F42
-
-WHITE
-#FFFFFF
-
-web 
-IRIS
-#4D5AE5
-*/
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.title-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.section-team {
+  background-color: var(--light);
+}
+.team-item {
+  background-color: var(--main-color);
+}
+.page-footer {
+  background-color: var(--dark);
+}
+.light-logo {
+  color: var(--light);
+}
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  background: var(--light);
+  border: 1px solid #e7e9fc;
+}
