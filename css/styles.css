@@ -29,7 +29,6 @@ body {
 }
 .span-logo {
   color: var(--dark);
-  font-style: normal;
 }
 .menu-link {
   font-style: normal;
@@ -42,6 +41,9 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--pressed-state);
+}
+.address {
+  font-style: normal;
 }
 .address-link {
   font-style: normal;
@@ -122,7 +124,6 @@ body {
 }
 .light-logo {
   color: var(--light);
-  font-style: normal;
 }
 .filter-btn {
   font-family: 'Roboto', sans-serif;
