@@ -22,30 +22,31 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 0.86;
-  color: var(--dark);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
 }
 .span-logo {
-  color: var(--primary-brand);
+  color: var(--dark);
 }
 .menu-link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var (var(--dark));
+  color: var(--dark);
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--pressed-state);
 }
 .address-link {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
 }
@@ -60,24 +61,25 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 0.93;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  text-align: center;
 }
-.button {
-  cursor: pointer;
-}
+
 .order-service-btn {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background: var(--primary-brand);
   color: var(--main-color);
   border: 1px solid #000000;
+  cursor: pointer;
 }
+
 .order-service-btn:hover,
 .order-service-btn:focus {
   background-color: var(--pressed-state);
@@ -86,15 +88,17 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.9;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--dark);
+  text-align: center;
+  text-transform: capitalize;
 }
 .title-item {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
@@ -102,7 +106,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
 }
@@ -128,4 +132,18 @@ body {
   color: var(--primary-brand);
   background: var(--light);
   border: 1px solid #e7e9fc;
+  cursor: pointer;
+}
+.portfolio-title-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--main-color);
+  background-color: var(--main-color);
 }
